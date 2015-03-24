@@ -7,6 +7,10 @@
 //
 
 #import "GameScene.h"
+#import "JSTileMap.h"
+
+//#import "game_utils.h"
+//#import "levelMap.h"
 
 @implementation GameScene
 

@@ -16,6 +16,9 @@
 		4F9625201AC1FFDC00F5DBDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F96251F1AC1FFDC00F5DBDD /* Images.xcassets */; };
 		4F9625231AC1FFDC00F5DBDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F9625211AC1FFDC00F5DBDD /* LaunchScreen.xib */; };
 		4F96252F1AC1FFDD00F5DBDD /* TiledMapATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F96252E1AC1FFDD00F5DBDD /* TiledMapATests.m */; };
+		4F96253A1AC2004900F5DBDD /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9625391AC2004900F5DBDD /* JSTileMap.m */; };
+		4F96253D1AC2005400F5DBDD /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F96253C1AC2005400F5DBDD /* LFCGzipUtility.m */; };
+		4F9625401AC2007D00F5DBDD /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F96253F1AC2007D00F5DBDD /* libz.1.1.3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,12 @@
 		4F9625281AC1FFDD00F5DBDD /* TiledMapATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiledMapATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F96252D1AC1FFDD00F5DBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F96252E1AC1FFDD00F5DBDD /* TiledMapATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledMapATests.m; sourceTree = "<group>"; };
+		4F9625381AC2004900F5DBDD /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
+		4F9625391AC2004900F5DBDD /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
+		4F96253B1AC2005400F5DBDD /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
+		4F96253C1AC2005400F5DBDD /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
+		4F96253E1AC2005C00F5DBDD /* SKTUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		4F96253F1AC2007D00F5DBDD /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9625401AC2007D00F5DBDD /* libz.1.1.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +78,7 @@
 		4F9625011AC1FFDC00F5DBDD = {
 			isa = PBXGroup;
 			children = (
+				4F96253F1AC2007D00F5DBDD /* libz.1.1.3.dylib */,
 				4F96250C1AC1FFDC00F5DBDD /* TiledMapA */,
 				4F96252B1AC1FFDD00F5DBDD /* TiledMapATests */,
 				4F96250B1AC1FFDC00F5DBDD /* Products */,
@@ -86,6 +97,11 @@
 		4F96250C1AC1FFDC00F5DBDD /* TiledMapA */ = {
 			isa = PBXGroup;
 			children = (
+				4F96253E1AC2005C00F5DBDD /* SKTUtils.h */,
+				4F96253B1AC2005400F5DBDD /* LFCGzipUtility.h */,
+				4F96253C1AC2005400F5DBDD /* LFCGzipUtility.m */,
+				4F9625381AC2004900F5DBDD /* JSTileMap.h */,
+				4F9625391AC2004900F5DBDD /* JSTileMap.m */,
 				4F9625111AC1FFDC00F5DBDD /* AppDelegate.h */,
 				4F9625121AC1FFDC00F5DBDD /* AppDelegate.m */,
 				4F9625141AC1FFDC00F5DBDD /* GameScene.h */,
@@ -229,8 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F96251B1AC1FFDC00F5DBDD /* GameViewController.m in Sources */,
+				4F96253A1AC2004900F5DBDD /* JSTileMap.m in Sources */,
 				4F9625131AC1FFDC00F5DBDD /* AppDelegate.m in Sources */,
 				4F9625161AC1FFDC00F5DBDD /* GameScene.m in Sources */,
+				4F96253D1AC2005400F5DBDD /* LFCGzipUtility.m in Sources */,
 				4F9625101AC1FFDC00F5DBDD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
