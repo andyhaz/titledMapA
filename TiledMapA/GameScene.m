@@ -48,7 +48,7 @@ typedef enum : uint8_t {
     [self addChild:circleTraget];
     
     sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-    
+    sprite.name = @"Spaceship";
     sprite.xScale = 0.2;
     sprite.yScale = 0.2;
     sprite.position = CGPointMake(CGRectGetMidX(self.frame),
@@ -69,7 +69,7 @@ typedef enum : uint8_t {
         CGPoint location = [touch locationInNode:self];
         circleTraget.position = location;
         [sprite runAction:[self rotImage]];
-        [sprite runAction:[self moveAction:location.x :location.y :@"target" :0.0020]];
+        [sprite runAction:[self moveAction:location.x :location.y :@"Spaceship" :0.0060]];
     }
 }
 
