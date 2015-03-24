@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F9625101AC1FFDC00F5DBDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F96250F1AC1FFDC00F5DBDD /* main.m */; };
+		4F9625131AC1FFDC00F5DBDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9625121AC1FFDC00F5DBDD /* AppDelegate.m */; };
+		4F9625161AC1FFDC00F5DBDD /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9625151AC1FFDC00F5DBDD /* GameScene.m */; };
+		4F9625181AC1FFDC00F5DBDD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4F9625171AC1FFDC00F5DBDD /* GameScene.sks */; };
+		4F96251B1AC1FFDC00F5DBDD /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F96251A1AC1FFDC00F5DBDD /* GameViewController.m */; };
+		4F96251E1AC1FFDC00F5DBDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F96251C1AC1FFDC00F5DBDD /* Main.storyboard */; };
+		4F9625201AC1FFDC00F5DBDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F96251F1AC1FFDC00F5DBDD /* Images.xcassets */; };
+		4F9625231AC1FFDC00F5DBDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F9625211AC1FFDC00F5DBDD /* LaunchScreen.xib */; };
+		4F96252F1AC1FFDD00F5DBDD /* TiledMapATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F96252E1AC1FFDD00F5DBDD /* TiledMapATests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F9625291AC1FFDD00F5DBDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F9625021AC1FFDC00F5DBDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F9625091AC1FFDC00F5DBDD;
+			remoteInfo = TiledMapA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F96250A1AC1FFDC00F5DBDD /* TiledMapA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiledMapA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F96250E1AC1FFDC00F5DBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F96250F1AC1FFDC00F5DBDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F9625111AC1FFDC00F5DBDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F9625121AC1FFDC00F5DBDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F9625141AC1FFDC00F5DBDD /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		4F9625151AC1FFDC00F5DBDD /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		4F9625171AC1FFDC00F5DBDD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4F9625191AC1FFDC00F5DBDD /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		4F96251A1AC1FFDC00F5DBDD /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		4F96251D1AC1FFDC00F5DBDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F96251F1AC1FFDC00F5DBDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F9625221AC1FFDC00F5DBDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4F9625281AC1FFDD00F5DBDD /* TiledMapATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiledMapATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F96252D1AC1FFDD00F5DBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F96252E1AC1FFDD00F5DBDD /* TiledMapATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledMapATests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F9625071AC1FFDC00F5DBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9625251AC1FFDD00F5DBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F9625011AC1FFDC00F5DBDD = {
+			isa = PBXGroup;
+			children = (
+				4F96250C1AC1FFDC00F5DBDD /* TiledMapA */,
+				4F96252B1AC1FFDD00F5DBDD /* TiledMapATests */,
+				4F96250B1AC1FFDC00F5DBDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F96250B1AC1FFDC00F5DBDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F96250A1AC1FFDC00F5DBDD /* TiledMapA.app */,
+				4F9625281AC1FFDD00F5DBDD /* TiledMapATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F96250C1AC1FFDC00F5DBDD /* TiledMapA */ = {
+			isa = PBXGroup;
+			children = (
+				4F9625111AC1FFDC00F5DBDD /* AppDelegate.h */,
+				4F9625121AC1FFDC00F5DBDD /* AppDelegate.m */,
+				4F9625141AC1FFDC00F5DBDD /* GameScene.h */,
+				4F9625151AC1FFDC00F5DBDD /* GameScene.m */,
+				4F9625171AC1FFDC00F5DBDD /* GameScene.sks */,
+				4F9625191AC1FFDC00F5DBDD /* GameViewController.h */,
+				4F96251A1AC1FFDC00F5DBDD /* GameViewController.m */,
+				4F96251C1AC1FFDC00F5DBDD /* Main.storyboard */,
+				4F96251F1AC1FFDC00F5DBDD /* Images.xcassets */,
+				4F9625211AC1FFDC00F5DBDD /* LaunchScreen.xib */,
+				4F96250D1AC1FFDC00F5DBDD /* Supporting Files */,
+			);
+			path = TiledMapA;
+			sourceTree = "<group>";
+		};
+		4F96250D1AC1FFDC00F5DBDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F96250E1AC1FFDC00F5DBDD /* Info.plist */,
+				4F96250F1AC1FFDC00F5DBDD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F96252B1AC1FFDD00F5DBDD /* TiledMapATests */ = {
+			isa = PBXGroup;
+			children = (
+				4F96252E1AC1FFDD00F5DBDD /* TiledMapATests.m */,
+				4F96252C1AC1FFDD00F5DBDD /* Supporting Files */,
+			);
+			path = TiledMapATests;
+			sourceTree = "<group>";
+		};
+		4F96252C1AC1FFDD00F5DBDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F96252D1AC1FFDD00F5DBDD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F9625091AC1FFDC00F5DBDD /* TiledMapA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9625321AC1FFDD00F5DBDD /* Build configuration list for PBXNativeTarget "TiledMapA" */;
+			buildPhases = (
+				4F9625061AC1FFDC00F5DBDD /* Sources */,
+				4F9625071AC1FFDC00F5DBDD /* Frameworks */,
+				4F9625081AC1FFDC00F5DBDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiledMapA;
+			productName = TiledMapA;
+			productReference = 4F96250A1AC1FFDC00F5DBDD /* TiledMapA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F9625271AC1FFDD00F5DBDD /* TiledMapATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9625351AC1FFDD00F5DBDD /* Build configuration list for PBXNativeTarget "TiledMapATests" */;
+			buildPhases = (
+				4F9625241AC1FFDD00F5DBDD /* Sources */,
+				4F9625251AC1FFDD00F5DBDD /* Frameworks */,
+				4F9625261AC1FFDD00F5DBDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F96252A1AC1FFDD00F5DBDD /* PBXTargetDependency */,
+			);
+			name = TiledMapATests;
+			productName = TiledMapATests;
+			productReference = 4F9625281AC1FFDD00F5DBDD /* TiledMapATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F9625021AC1FFDC00F5DBDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "andrew hazlett";
+				TargetAttributes = {
+					4F9625091AC1FFDC00F5DBDD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4F9625271AC1FFDD00F5DBDD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 4F9625091AC1FFDC00F5DBDD;
+					};
+				};
+			};
+			buildConfigurationList = 4F9625051AC1FFDC00F5DBDD /* Build configuration list for PBXProject "TiledMapA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F9625011AC1FFDC00F5DBDD;
+			productRefGroup = 4F96250B1AC1FFDC00F5DBDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F9625091AC1FFDC00F5DBDD /* TiledMapA */,
+				4F9625271AC1FFDD00F5DBDD /* TiledMapATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F9625081AC1FFDC00F5DBDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9625231AC1FFDC00F5DBDD /* LaunchScreen.xib in Resources */,
+				4F9625201AC1FFDC00F5DBDD /* Images.xcassets in Resources */,
+				4F9625181AC1FFDC00F5DBDD /* GameScene.sks in Resources */,
+				4F96251E1AC1FFDC00F5DBDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9625261AC1FFDD00F5DBDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F9625061AC1FFDC00F5DBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F96251B1AC1FFDC00F5DBDD /* GameViewController.m in Sources */,
+				4F9625131AC1FFDC00F5DBDD /* AppDelegate.m in Sources */,
+				4F9625161AC1FFDC00F5DBDD /* GameScene.m in Sources */,
+				4F9625101AC1FFDC00F5DBDD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9625241AC1FFDD00F5DBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F96252F1AC1FFDD00F5DBDD /* TiledMapATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F96252A1AC1FFDD00F5DBDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F9625091AC1FFDC00F5DBDD /* TiledMapA */;
+			targetProxy = 4F9625291AC1FFDD00F5DBDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F96251C1AC1FFDC00F5DBDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F96251D1AC1FFDC00F5DBDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F9625211AC1FFDC00F5DBDD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9625221AC1FFDC00F5DBDD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F9625301AC1FFDD00F5DBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F9625311AC1FFDD00F5DBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F9625331AC1FFDD00F5DBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TiledMapA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F9625341AC1FFDD00F5DBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TiledMapA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F9625361AC1FFDD00F5DBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TiledMapATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiledMapA.app/TiledMapA";
+			};
+			name = Debug;
+		};
+		4F9625371AC1FFDD00F5DBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TiledMapATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiledMapA.app/TiledMapA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F9625051AC1FFDC00F5DBDD /* Build configuration list for PBXProject "TiledMapA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9625301AC1FFDD00F5DBDD /* Debug */,
+				4F9625311AC1FFDD00F5DBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9625321AC1FFDD00F5DBDD /* Build configuration list for PBXNativeTarget "TiledMapA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9625331AC1FFDD00F5DBDD /* Debug */,
+				4F9625341AC1FFDD00F5DBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F9625351AC1FFDD00F5DBDD /* Build configuration list for PBXNativeTarget "TiledMapATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9625361AC1FFDD00F5DBDD /* Debug */,
+				4F9625371AC1FFDD00F5DBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F9625021AC1FFDC00F5DBDD /* Project object */;
+}
