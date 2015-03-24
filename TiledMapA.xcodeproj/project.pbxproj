@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F4327221AC21D3500165374 /* cirImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F4327211AC21D3500165374 /* cirImage.png */; };
+		4F4327251AC21D6F00165374 /* game_utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4327241AC21D6F00165374 /* game_utils.m */; };
+		4F4327281AC21EA700165374 /* levelMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4327271AC21EA700165374 /* levelMap.m */; };
 		4F9625101AC1FFDC00F5DBDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F96250F1AC1FFDC00F5DBDD /* main.m */; };
 		4F9625131AC1FFDC00F5DBDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9625121AC1FFDC00F5DBDD /* AppDelegate.m */; };
 		4F9625161AC1FFDC00F5DBDD /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9625151AC1FFDC00F5DBDD /* GameScene.m */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F4327211AC21D3500165374 /* cirImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cirImage.png; sourceTree = "<group>"; };
+		4F4327231AC21D6F00165374 /* game_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game_utils.h; sourceTree = "<group>"; };
+		4F4327241AC21D6F00165374 /* game_utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = game_utils.m; sourceTree = "<group>"; };
+		4F4327261AC21EA700165374 /* levelMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = levelMap.h; sourceTree = "<group>"; };
+		4F4327271AC21EA700165374 /* levelMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = levelMap.m; sourceTree = "<group>"; };
 		4F96250A1AC1FFDC00F5DBDD /* TiledMapA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiledMapA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F96250E1AC1FFDC00F5DBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F96250F1AC1FFDC00F5DBDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +109,11 @@
 		4F96250C1AC1FFDC00F5DBDD /* TiledMapA */ = {
 			isa = PBXGroup;
 			children = (
+				4F4327261AC21EA700165374 /* levelMap.h */,
+				4F4327271AC21EA700165374 /* levelMap.m */,
+				4F4327231AC21D6F00165374 /* game_utils.h */,
+				4F4327241AC21D6F00165374 /* game_utils.m */,
+				4F4327211AC21D3500165374 /* cirImage.png */,
 				4F9625451AC2094D00F5DBDD /* map1.tmx */,
 				4F9625461AC2094D00F5DBDD /* puffer_title_mapC.jpg */,
 				4F96253E1AC2005C00F5DBDD /* SKTUtils.h */,
@@ -232,6 +245,7 @@
 			files = (
 				4F9625231AC1FFDC00F5DBDD /* LaunchScreen.xib in Resources */,
 				4F9625481AC2094D00F5DBDD /* puffer_title_mapC.jpg in Resources */,
+				4F4327221AC21D3500165374 /* cirImage.png in Resources */,
 				4F9625201AC1FFDC00F5DBDD /* Images.xcassets in Resources */,
 				4F9625181AC1FFDC00F5DBDD /* GameScene.sks in Resources */,
 				4F9625471AC2094D00F5DBDD /* map1.tmx in Resources */,
@@ -253,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F4327251AC21D6F00165374 /* game_utils.m in Sources */,
 				4F96251B1AC1FFDC00F5DBDD /* GameViewController.m in Sources */,
 				4F96253A1AC2004900F5DBDD /* JSTileMap.m in Sources */,
+				4F4327281AC21EA700165374 /* levelMap.m in Sources */,
 				4F9625131AC1FFDC00F5DBDD /* AppDelegate.m in Sources */,
 				4F9625161AC1FFDC00F5DBDD /* GameScene.m in Sources */,
 				4F96253D1AC2005400F5DBDD /* LFCGzipUtility.m in Sources */,
@@ -455,6 +471,7 @@
 				4F9625341AC1FFDD00F5DBDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F9625351AC1FFDD00F5DBDD /* Build configuration list for PBXNativeTarget "TiledMapATests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +480,7 @@
 				4F9625371AC1FFDD00F5DBDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
