@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="50" tileheight="50" nextobjectid="1">
+ <tileset firstgid="1" name="puffer_title_mapC" tilewidth="50" tileheight="50">
+  <image source="puffer_title_mapC.jpg" width="150" height="150"/>
+ </tileset>
+ <layer name="backgound" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+IhgAHGRgEt
+  </data>
+ </layer>
+ <layer name="wall" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZmBgYKYyphagtXnY3IzPL7jUIvPJcRMu88gBlLqHkNnUNJ/W4TcUzKNm+qMU0Mo8amIAkC4BGA==
+  </data>
+ </layer>
+</map>

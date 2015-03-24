@@ -12,10 +12,19 @@
 //#import "game_utils.h"
 //#import "levelMap.h"
 
-@implementation GameScene
+@implementation GameScene {
+    SKSpriteNode *map;
+}
 
 -(void)didMoveToView:(SKView *)view {
+    NSLog(@"screen size:%f %f",self.frame.size.width,self.frame.size.height);
     /* Setup your scene here */
+    
+   //load map
+     JSTileMap *tileMap = [JSTileMap mapNamed:@"map1.tmx"];
+    [self addChild:tileMap];
+    
+    
     SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
     
     myLabel.text = @"Hello, World!";
@@ -24,6 +33,7 @@
                                    CGRectGetMidY(self.frame));
     
     [self addChild:myLabel];
+    
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
