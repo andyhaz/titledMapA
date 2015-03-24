@@ -19,8 +19,8 @@
 		4F96253A1AC2004900F5DBDD /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9625391AC2004900F5DBDD /* JSTileMap.m */; };
 		4F96253D1AC2005400F5DBDD /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F96253C1AC2005400F5DBDD /* LFCGzipUtility.m */; };
 		4F9625401AC2007D00F5DBDD /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F96253F1AC2007D00F5DBDD /* libz.1.1.3.dylib */; };
-		4F9625431AC2059200F5DBDD /* map1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 4F9625411AC2059200F5DBDD /* map1.tmx */; };
-		4F9625441AC2059200F5DBDD /* puffer_title_mapC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F9625421AC2059200F5DBDD /* puffer_title_mapC.jpg */; };
+		4F9625471AC2094D00F5DBDD /* map1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 4F9625451AC2094D00F5DBDD /* map1.tmx */; };
+		4F9625481AC2094D00F5DBDD /* puffer_title_mapC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F9625461AC2094D00F5DBDD /* puffer_title_mapC.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 		4F96253C1AC2005400F5DBDD /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
 		4F96253E1AC2005C00F5DBDD /* SKTUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
 		4F96253F1AC2007D00F5DBDD /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
-		4F9625411AC2059200F5DBDD /* map1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map1.tmx; sourceTree = "<group>"; };
-		4F9625421AC2059200F5DBDD /* puffer_title_mapC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puffer_title_mapC.jpg; sourceTree = "<group>"; };
+		4F9625451AC2094D00F5DBDD /* map1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = map1.tmx; path = ../map1.tmx; sourceTree = "<group>"; };
+		4F9625461AC2094D00F5DBDD /* puffer_title_mapC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = puffer_title_mapC.jpg; path = ../puffer_title_mapC.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 		4F96250C1AC1FFDC00F5DBDD /* TiledMapA */ = {
 			isa = PBXGroup;
 			children = (
-				4F9625411AC2059200F5DBDD /* map1.tmx */,
-				4F9625421AC2059200F5DBDD /* puffer_title_mapC.jpg */,
+				4F9625451AC2094D00F5DBDD /* map1.tmx */,
+				4F9625461AC2094D00F5DBDD /* puffer_title_mapC.jpg */,
 				4F96253E1AC2005C00F5DBDD /* SKTUtils.h */,
 				4F96253B1AC2005400F5DBDD /* LFCGzipUtility.h */,
 				4F96253C1AC2005400F5DBDD /* LFCGzipUtility.m */,
@@ -230,10 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9625231AC1FFDC00F5DBDD /* LaunchScreen.xib in Resources */,
-				4F9625441AC2059200F5DBDD /* puffer_title_mapC.jpg in Resources */,
+				4F9625481AC2094D00F5DBDD /* puffer_title_mapC.jpg in Resources */,
 				4F9625201AC1FFDC00F5DBDD /* Images.xcassets in Resources */,
 				4F9625181AC1FFDC00F5DBDD /* GameScene.sks in Resources */,
-				4F9625431AC2059200F5DBDD /* map1.tmx in Resources */,
+				4F9625471AC2094D00F5DBDD /* map1.tmx in Resources */,
 				4F96251E1AC1FFDC00F5DBDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TiledMapA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -392,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TiledMapA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
